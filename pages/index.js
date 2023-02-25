@@ -29,7 +29,7 @@ export default function Home({allPostsData}) {
       </Head>
       <section className={utilsStyles.headingMd}>
         <p>
-          1993年生まれ 京都産業大学　総合生命科学部　動物生命医科学科(19卒)
+          1995年生まれ 京都産業大学　総合生命科学部　動物生命医科学科(19卒)
           <br />
           South Metropolitan TAFE Australia　Diploma of Software
           Development(22卒)
