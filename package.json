@@ -10,11 +10,14 @@
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "bootstrap": "^5.2.3",
     "gray-matter": "^4.0.3",
     "matte": "^0.3.2",
     "matter": "^0.2.0",
     "next": "13.1.6",
+    "nodemailer": "^6.9.1",
     "react": "18.2.0",
+    "react-bootstrap": "^2.7.2",
     "react-dom": "18.2.0",
     "remark": "^14.0.2",
     "remark-html": "^15.0.2"
