@@ -1,14 +1,14 @@
 import nodemailer from "nodemailer";
 
 ("use strict");
-const nodemailer = require("nodemailer");
+// const nodemailer = require("nodemailer");
 
 //node.jsではなくnext.js側でnodemailer API作成
 export default function sendmail(req, res) {
   const transporter = nodemailer.createTransport({
     host: "smtp.ethereal.email",
     port: 587,
-    secure: false, // true for 465, false for other ports
+    secure: false, // true for 465, false for other portsgit
     auth: {
       user: process.env.GMAILUSER,
       pass: process.env.GMAILPASSWORD,
